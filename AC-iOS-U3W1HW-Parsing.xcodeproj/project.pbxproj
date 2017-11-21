@@ -13,6 +13,13 @@
 		541D38141FBCDEA900F6A0A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541D38121FBCDEA900F6A0A9 /* LaunchScreen.storyboard */; };
 		541D381C1FBCDFAC00F6A0A9 /* applstockinfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 541D381B1FBCDFAC00F6A0A9 /* applstockinfo.json */; };
 		541D381E1FBCDFE100F6A0A9 /* userinfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 541D381D1FBCDFE100F6A0A9 /* userinfo.json */; };
+		CF86EA561FC366A700DA7DC2 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF86EA551FC366A700DA7DC2 /* APIManager.swift */; };
+		CF86EA581FC36DFD00DA7DC2 /* StocksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF86EA571FC36DFD00DA7DC2 /* StocksTableViewController.swift */; };
+		CF86EA5A1FC3731500DA7DC2 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF86EA591FC3731500DA7DC2 /* Stock.swift */; };
+		CF86EA5C1FC37EBF00DA7DC2 /* StockDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF86EA5B1FC37EBF00DA7DC2 /* StockDetailViewController.swift */; };
+		CFD6E73C1FC293DD00FD0EAC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD6E73B1FC293DC00FD0EAC /* User.swift */; };
+		CFD6E73E1FC2996800FD0EAC /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD6E73D1FC2996800FD0EAC /* ContactViewController.swift */; };
+		CFD6E7401FC299AB00FD0EAC /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD6E73F1FC299AB00FD0EAC /* ContactDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		541D38151FBCDEA900F6A0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		541D381B1FBCDFAC00F6A0A9 /* applstockinfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = applstockinfo.json; sourceTree = "<group>"; };
 		541D381D1FBCDFE100F6A0A9 /* userinfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = userinfo.json; sourceTree = "<group>"; };
+		CF86EA551FC366A700DA7DC2 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		CF86EA571FC36DFD00DA7DC2 /* StocksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StocksTableViewController.swift; sourceTree = "<group>"; };
+		CF86EA591FC3731500DA7DC2 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		CF86EA5B1FC37EBF00DA7DC2 /* StockDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailViewController.swift; sourceTree = "<group>"; };
+		CFD6E73B1FC293DC00FD0EAC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CFD6E73D1FC2996800FD0EAC /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		CFD6E73F1FC299AB00FD0EAC /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +56,10 @@
 			children = (
 				541D381B1FBCDFAC00F6A0A9 /* applstockinfo.json */,
 				541D381D1FBCDFE100F6A0A9 /* userinfo.json */,
+				CF86EA551FC366A700DA7DC2 /* APIManager.swift */,
+				CFD6E73D1FC2996800FD0EAC /* ContactViewController.swift */,
+				CFD6E73F1FC299AB00FD0EAC /* ContactDetailViewController.swift */,
+				CFD6E73B1FC293DC00FD0EAC /* User.swift */,
 				541D38081FBCDEA900F6A0A9 /* AC-iOS-U3W1HW-Parsing */,
 				541D38071FBCDEA900F6A0A9 /* Products */,
 			);
@@ -69,6 +87,9 @@
 			children = (
 				541D38091FBCDEA900F6A0A9 /* AppDelegate.swift */,
 				541D380D1FBCDEA900F6A0A9 /* Main.storyboard */,
+				CF86EA571FC36DFD00DA7DC2 /* StocksTableViewController.swift */,
+				CF86EA5B1FC37EBF00DA7DC2 /* StockDetailViewController.swift */,
+				CF86EA591FC3731500DA7DC2 /* Stock.swift */,
 				541D38101FBCDEA900F6A0A9 /* Assets.xcassets */,
 				541D38121FBCDEA900F6A0A9 /* LaunchScreen.storyboard */,
 			);
@@ -149,7 +170,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF86EA5C1FC37EBF00DA7DC2 /* StockDetailViewController.swift in Sources */,
+				CFD6E73C1FC293DD00FD0EAC /* User.swift in Sources */,
 				541D380A1FBCDEA900F6A0A9 /* AppDelegate.swift in Sources */,
+				CF86EA581FC36DFD00DA7DC2 /* StocksTableViewController.swift in Sources */,
+				CF86EA5A1FC3731500DA7DC2 /* Stock.swift in Sources */,
+				CF86EA561FC366A700DA7DC2 /* APIManager.swift in Sources */,
+				CFD6E7401FC299AB00FD0EAC /* ContactDetailViewController.swift in Sources */,
+				CFD6E73E1FC2996800FD0EAC /* ContactViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
